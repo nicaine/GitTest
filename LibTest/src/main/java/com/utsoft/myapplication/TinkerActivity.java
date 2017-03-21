@@ -35,9 +35,10 @@ import com.tencent.tinker.lib.tinker.Tinker;
 import com.tencent.tinker.lib.tinker.TinkerInstaller;
 import com.tencent.tinker.loader.shareutil.ShareConstants;
 import com.tencent.tinker.loader.shareutil.ShareTinkerInternals;
+import com.utsoft.myapplication.tinker.BaseBuildInfo;
+import com.utsoft.myapplication.tinker.BuildInfo;
+import com.utsoft.myapplication.tinker.Utils;
 
-import tinker.sample.android.R;
-import tinker.sample.android.util.Utils;
 
 public class TinkerActivity extends AppCompatActivity {
     private static final String TAG = "Tinker.MainActivity";
@@ -102,7 +103,7 @@ public class TinkerActivity extends AppCompatActivity {
         buildInfoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showInfo(MainActivity.this);
+                showInfo(TinkerActivity.this);
             }
         });
     }

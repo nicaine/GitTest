@@ -44,4 +44,6 @@
     <string name="network_err">Simulation network error</string>
     <string name="empty_network_error">Network error, Click Retry</string>
     <string name="empty_no_data">There is no data, Click Retry</string>
+    <string name="test_resource">I am in the base apk</string>
+    <!--<string name="test_resource">I am in the patch apk</string>-->
 </resources>

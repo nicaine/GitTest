@@ -27,7 +27,7 @@ import io.realm.RealmConfiguration;
  * func:
  */
 @SuppressWarnings("unused")
-@DefaultLifeCycle(application = "com.utsoft.myapplication.Myapplication",
+@DefaultLifeCycle(application = "com.utsoft.myapplication.SampleApplication",
         flags = ShareConstants.TINKER_ENABLE_ALL,
         loadVerifyFlag = false)
 public class Myapplication extends DefaultApplicationLike {
@@ -81,7 +81,7 @@ public class Myapplication extends DefaultApplicationLike {
     @Override
     public void onCreate() {
         super.onCreate();
-        SampleApplicationContext.application = getApplication();
+//        SampleApplicationContext.application = getApplication();
         appContext = this;
         Utils.init(SampleApplicationContext.application);
         Logger

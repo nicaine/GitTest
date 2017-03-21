@@ -31,10 +31,7 @@ import com.tencent.tinker.loader.shareutil.ShareTinkerInternals;
 import java.io.File;
 import java.util.Properties;
 
-import tinker.sample.android.app.BuildInfo;
-import tinker.sample.android.crash.SampleUncaughtExceptionHandler;
-import tinker.sample.android.util.UpgradePatchRetry;
-import tinker.sample.android.util.Utils;
+
 
 /**
  * Created by zhangshaowen on 16/4/30.
